@@ -8,14 +8,14 @@ class Cat(Animal):
         super().__init__(name)
 
     def make_sound(self):
-        return print('Meow-meow')
+        return 'Meow-meow'
     
 class Cow(Animal):
     def __init__(self, name):
         super().__init__(name)
 
     def make_sound(self):
-        return print('Mu-Mu')
+        return 'Mu-Mu'
     
 
 class Dog(Animal):
@@ -23,13 +23,16 @@ class Dog(Animal):
         super().__init__(name)
 
     def make_sound(self):
-        return print('Aaf-Aaf')
+        return 'Woof-woof'
     
 
 
 dog = Dog('Dog')
+print(dog.name,dog.make_sound())
+
 cat = Cat('Cat')
-cow = Cow('Cow')
-print(dog.name, dog.make_sound())
 print(cat.name, cat.make_sound())
+
+cow = Cow('Cow')
 print(cow.name, cow.make_sound())
+
