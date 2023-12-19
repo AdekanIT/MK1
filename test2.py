@@ -30,7 +30,6 @@ class Dog(Animal):
 dog = Dog('Dog')
 cat = Cat('Cat')
 cow = Cow('Cow')
-
 print(dog.name, dog.make_sound())
 print(cat.name, cat.make_sound())
 print(cow.name, cow.make_sound())
