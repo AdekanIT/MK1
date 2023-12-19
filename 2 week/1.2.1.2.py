@@ -1,0 +1,2 @@
+names = [1, 2, 3, 4, 5, ['Hell No', 5]]
+print(len(names))
